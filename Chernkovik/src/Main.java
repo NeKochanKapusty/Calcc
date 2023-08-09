@@ -16,7 +16,7 @@ public class Main {
         String stringb = s[2];
 
         if (s.length > 3) {
-            return "Ошибка\nВ уравнении должна быть только одна математическая операция";
+            throw new IOException();
         }
 
         int a;
